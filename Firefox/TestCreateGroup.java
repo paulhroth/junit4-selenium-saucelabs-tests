@@ -24,14 +24,16 @@ public class TestCreateGroup {
 
   @Test
   public void testCreateGroup() throws Exception {
-    driver.get(baseUrl + "/native_ads/");
+    driver.get(baseUrl + "/");
+    driver.findElement(By.linkText("Native Ad Creator")).click();
     driver.findElement(By.linkText("+ New Group")).click();
     driver.findElement(By.id("id_name")).clear();
     driver.findElement(By.id("id_name")).sendKeys("PolarQA");
+    new Select(driver.findElement(By.id("id_ownergroup"))).selectByVisibleText("AcmePublisher");
     driver.findElement(By.cssSelector("input.btn.btn-success")).click();
     // Warning: verifyTextPresent may require manual changes
     try {
-      assertTrue(driver.findElement(By.cssSelector("BODY")).getText().matches("^[\\s\\S]*AcmeAdvertising::PolarQA[\\s\\S]*$"));
+      assertTrue(driver.findElement(By.cssSelector("BODY")).getText().matches("^[\\s\\S]*AcmePublisher::PolarQA[\\s\\S]*$"));
     } catch (Error e) {
       verificationErrors.append(e.toString());
     }
