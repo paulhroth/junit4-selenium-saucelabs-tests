@@ -1,3 +1,10 @@
+// Firefox Login Test
+// Paul Roth
+
+// Goes to "https://control-staging.mediaeverywhere.com/", logs in as polarqa,
+// and asserts that the log in was succesful by checking the URL it is at. 
+
+
 package com.example.tests;
 
 import java.util.regex.Pattern;
