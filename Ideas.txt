@@ -4,6 +4,6 @@ login                              |  done
 create group                       |
 create creative                    |  done
 open creative and check fields     |  in progress
-modify creative                    |  
+modify creative                    |  in prograss -Paul
 delete creative                    |  in progresss
 
