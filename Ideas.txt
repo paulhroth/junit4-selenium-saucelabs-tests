@@ -1,5 +1,9 @@
-login
-create group
-create creative
-open creative
-modify creative
+Status                             |
+-----------------------------------|------------------------------------------------------------------------
+login                              |  done
+create group                       |
+create creative                    |  done
+open creative and check fields     |  in progress
+modify creative                    |  
+delete creative                    |  in progresss
+
