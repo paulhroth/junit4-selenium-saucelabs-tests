@@ -25,8 +25,8 @@ public class Test2 {
   @Test
   public void testDelete() throws Exception {
     driver.get(baseUrl + "/");
-    driver.findElement(By.id("id_username")).sendKeys("corey.wu@polarmobile.com");
-    driver.findElement(By.id("id_password")).sendKeys("27131018699753UoW@");
+    driver.findElement(By.id("id_username")).sendKeys("polarqa");
+    driver.findElement(By.id("id_password")).sendKeys("4testing");
     driver.findElement(By.tagName("button")).click();
     driver.findElement(By.linkText("Native Ad Creator")).click();
     String link = driver.findElement(By.linkText("Selenium Test1")).getAttribute("href");
