@@ -17,7 +17,7 @@ import static junit.framework.Assert.assertEquals;
 
 import com.saucelabs.saucerest.SauceREST;
 
-public class TestCreateModifyGroupMacFirefox {
+public class TestCreateModifyGroupSnowleopardFirefox20 {
     
     private WebDriver driver;
     
@@ -46,7 +46,7 @@ public class TestCreateModifyGroupMacFirefox {
 
         DesiredCapabilities capabillities = DesiredCapabilities.firefox();
         capabillities.setCapability("version", "20.0");
-        capabillities.setCapability("platform", Platform.MAC);
+        capabillities.setCapability("platform", "OS X 10.6");
         capabillities.setCapability("name", "TestCreateModifyGroupMacFirefox");
         this.driver = new RemoteWebDriver(
 					  new URL("http://" + sauce_user + ":d609b648-22e3-44bb-a38e-c28931df837d@ondemand.saucelabs.com:80/wd/hub"),

@@ -1,4 +1,4 @@
-JUnit4 Selenium Automation Tests with SauceLabs
+JUnit4 Selenium Tests with SauceLabs
 ===============================================
 
 These tests were/are being created by Paul Roth and Corey Wu for use by Polar Mobile (or anyone else interested) in testing their Native Ad Creator tool.
