@@ -1,9 +1,0 @@
-Name                               |  Status
------------------------------------|------------------------------------------------------------------------
-login                              |  done
-create group                       |  done
-create creative                    |  done
-open creative and check fields     |  in progress
-modify creative                    |  in progress -Paul
-delete creative                    |  in progress
-
