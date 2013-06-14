@@ -11,7 +11,7 @@ Setup
 
 2. Add all of the JAR files in ```libs/``` to your project build path.
 
-   NOTE: steps 3 and 4 are SauceLabs specific; if you are testing locally you can proceed to step 5.
+   NOTE: if you are testing locally and not with SauceLabs you can now proceed to step 4.
 
 3. Start the Sauce-Connect tunnel by typing the following command in your shell:
 
@@ -21,7 +21,8 @@ Setup
 
 4. Right click on a test in the Project Explorer, then select Run As > JUnit Test.
 
-5. Navigate to ```https://saucelabs.com``` and view your test results, or see more basic results directly in your IDE.
+5. SauceLabs specific: Navigate to ```https://saucelabs.com``` and view your results, a captured video of each test, and more.
+   Local or SauceLabs: View the results of your tests directly in your IDE.
    
 
 To Do
