@@ -28,7 +28,5 @@ Setup
 To Do
 -----
 
--Convert our tests to support parallelization.
-
 -Include more asserts.
 
